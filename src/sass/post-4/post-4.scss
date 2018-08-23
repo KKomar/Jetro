@@ -1,0 +1,19 @@
+.post-4__post-icon{
+  background-image: url("../img/chain.png");
+}
+.article__header_marginbottom{
+  margin-bottom: 10px;
+}
+.article__text_margintop{
+  margin-top: 23px;
+}
+.article__link{
+  text-decoration: none;
+  font-size: 12px;
+  color: #A1A1A1;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  &:hover{
+    text-decoration: underline;
+  }
+}

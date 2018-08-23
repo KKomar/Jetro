@@ -1,0 +1,26 @@
+.pages-container{
+  width: 640px;
+  margin-bottom: 30px;
+}
+.pages{
+  margin-bottom: 50px;
+}
+.page{
+  float: left;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 26px;
+  height: 26px;
+  background-color: #FFB39D;
+  margin-right: 4px;
+  text-align: center;
+  cursor: pointer;
+  &:hover{
+    background-color: $main-color;
+  }
+}
+.page_active{
+  background-color: $main-color;
+}

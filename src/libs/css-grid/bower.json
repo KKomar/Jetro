@@ -1,0 +1,23 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rtheunissen/css-grid",
+  "authors": [
+    "Rudi Theunissen <rudolf.theunissen@gmail.com>"
+  ],
+  "description": "Bootstrap 3 CSS grid with a few adjustments",
+  "main": "src/grid.less",
+  "keywords": [
+    "bootstrap",
+    "grid",
+    "less"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

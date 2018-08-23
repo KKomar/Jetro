@@ -1,0 +1,28 @@
+.slider-wrap{
+  position: relative;
+  width: 670px;
+}
+//.slider__slide{
+//  display: none;
+//}
+//.show{
+//  display: block;
+//}
+.slider__prev, .slider__next{
+  position: absolute;
+  color: white;
+  font-size: 52px;
+  cursor: pointer;
+  top: calc(50% - 26px);
+  opacity: 0.9;
+  z-index: 2;
+  &:hover{
+    opacity: 1;
+  }
+}
+.slider__prev{
+  left: 15px;
+}
+.slider__next{
+  right: 15px;
+}

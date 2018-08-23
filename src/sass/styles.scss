@@ -1,0 +1,32 @@
+//font-family: 'helveticaneuecyrmedium';
+
+$main-color: #FF6037;
+
+.clear{
+  clear: both;
+}
+body{
+  font-family: 'bebasregular', sans-serif;
+  background: url("../img/bg.png");
+  width: 100%;
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+.post-container{
+  width: 670px;
+}
+.clearfix:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+@import "header";
+@import "post-container";
+@import "post-1/post-1";
+@import "post-2/post-2";
+@import "post-3/post-3";
+@import "post-4/post-4";
+@import "_pages";

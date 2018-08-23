@@ -1,0 +1,22 @@
+.post-3__post-icon{
+  background-image: url("../img/quote.png");
+}
+.quote {
+  background-image: url("../img/quote-bg.png");
+  position: relative;
+  width: calc(100% - 17px);
+}
+.quote__text {
+  color: #474747;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 18px;
+  padding: 25px 26px 18px 75px;
+  font-weight: 500;
+}
+.quotes{
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
